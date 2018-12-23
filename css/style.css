@@ -45,6 +45,9 @@
 	margin-left:2.5px;
 	color: #b0b0b0;
 }
+.car-left span:hover{
+	color: #fff;
+}
 .car-right{
 	width: 120px;
 	height: 100%;
@@ -55,6 +58,10 @@
 	font-size: 12px;
 	text-align: center;
     line-height: 32px;
+}
+.car-right:hover{
+	background: #fff;
+	color: #FF6700;
 }
 .topx{
 	width: 100%;
