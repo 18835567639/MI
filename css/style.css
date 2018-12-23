@@ -22,6 +22,9 @@
 	line-height: 32px;
 	color: #b0b0b0;
 }
+.topleft1-size:hover{
+	color: #fff;
+}
 .topleft1-size1{
 	font-size: 12px;
 	float:left;
@@ -37,12 +40,10 @@
 	line-height: 32px;
 	text-align: center; 
 	margin-right: 30px;
-	
 }
 .car-left span{
 	margin-left:2.5px;
 	color: #b0b0b0;
-
 }
 .car-right{
 	width: 120px;
@@ -86,6 +87,9 @@
 	margin-left: 14.1px;
 	font-size: 16px;
 }
+.topxz span:hover{
+	color: #ff6700;
+}
 .topxr{
 	width: 295px;
 	height: 51px;
@@ -123,15 +127,20 @@
 .banner-list{
 	width: 234px;
 	height: 460px;
-	background:rgba(83,93,102,0.5);
 	position: absolute;
 	top: 0;
 	left: 0;
 	padding: 33px 0 ;
 	box-sizing:border-box;
+	background:rgba(83,93,102,0.5);
 }
 .banner-list>div{
-	margin-top: 21px;
+	height: 39.4px;
+	cursor: pointer;
+	line-height: 39.4px;
+}
+.banner-list>div:hover{
+	background: #ff6700;
 }
 .banner-list .banner-list-forst{
 	margin: 0px;
@@ -204,32 +213,75 @@
 	background: white;
 	border: 2px solid #9fa8b0;
 }
+.banner .banner2s{
+	width: calc(1226px - 234px);
+	height: 100%;
+	background: white;
+	position: absolute;
+	top: 0;
+	right: 2000px;
+	border-top:1px solid black ;
+	box-shadow: 3px 3px 3px 1px rgba(0,0,0,0.5);
+	opacity: 1;
+}
 /* banner结束 */
 .bannerxia{
 	width: 1226px;
 	height: 170px;
 	margin: 0 auto;
 	margin-top: 15px;
-	background: #000080;
 }
 .bannerxia1{
 	width: 234px;
 	height: 170px;
 	float: left;
-	background: red;
+}
+.bannerxia1>div{
+	width: 78px;
+	height: 85px;
+	background: #5f5750;
+	padding-top: 20px;
+	text-align:center;
+	box-sizing:border-box;
+	float: left;
+	position: relative;
+}
+.bannerxia1>div>header{
+	font-size: 12px;
+	color: rde;
+/* 	margin-bottom: 10px;
+	list-style: none; */
+}
+.bannerxia1>div>i{
+	font-size: 25px;
+	color: #d1cfcc;
+}
+.bannerxia1s>div{
+	width: 1px;
+	height: 70px;
+	background: #645c56;
+	position: absolute;
+	right: 0;
+	top: 7.5px;
+}
+.bannerxia1>div>span{
+	width: 70px;
+	height: 1px;
+	background: #645c56;
+	position: absolute;
+	bottom: 0;
+	left:4px;
 }
 .bannerxia2{
 	width: 992px;
 	height: 170px;
 	float: left;
-	background: #000080;
 }
-.bannerxia2-1{
+.bannerxia2-1>img{
 	width: 316px;
 	height: 170px;
 	float: left;
-	background: yellow;
-	margin-left: 14px;
+	margin-left: 14.66px;
 }
 
 /* 小米闪购 */
@@ -242,6 +294,7 @@
 	width: 90px;
 	height: 100%;
 	text-align: left;
+	font-size: 21px;
 	color: #303030;
 }
 .topx2r{
@@ -290,57 +343,60 @@
 	box-sizing:border-box;
 	border-top:2px solid #ea5f5b;
 	float: left;
-
 }
 .shan1-1{
-	width: 100%;
-	height: 0px;
-	margin: auto;
-	margin-top:50px;
+	margin-top:60px;
 	color: #FF0000;
 	font-weight: 600;
 	font-size: 21px;
-	text-align: center;
-	/* float: left; */
-}
-.shan1-2 i{
-	color: red;
-	font-size:50px;
 }
 .shan1-2{
-	margin: 50px 25px;
-	width: 100%;
-	height: 53px;
+	color: red;
+	font-size:55px;
+	line-height: 113px;
 	text-align: center;
-	/* float: left; */
+	margin-left: 50px;
 }
 .shan1-3{
 	color: #918e8e;
 	font-size:15px;
-	text-align: center;
 }
 .shan1-4{
-	width: 100%;
-	height: 46px;
-	background: navy;
-	margin: 26px auto;
-	float: left;
-}
-.shan1-4-1{
-	float: left;
-	/* margin:0px auto; */
-	margin-left: 10px;
 	width: 170px;
-	height: 100%;
-	background: red;
-	float:left;
-}
-.shan1-4-1 div{
-	width: 46px;
 	height: 46px;
+	margin: 30px auto;
+	color: #fff;
+	line-height: 46px;
+}
+.shan1-4 div:nth-child(1){
+	width: 46px;
+	height: 100%;
 	background: #605751;
-	float:left;
-	
+	float: left;
+}
+.shan1-4 div:nth-child(2){
+	width: 16px;
+	height: 100%;
+	float: left;
+	color: #605751;
+}
+.shan1-4 div:nth-child(3){
+	width: 46px;
+	height: 100%;
+	background: #605751;
+	float: left;
+}
+.shan1-4 div:nth-child(4){
+	width: 16px;
+	height: 100%;
+	float: left;
+	color: #605751;
+}
+.shan1-4 div:nth-child(5){
+	width: 46px;
+	height: 100%;
+	background: #605751;
+	float: left;
 }
 .shan2{
 	/* background: black; */
@@ -399,15 +455,287 @@
 .shan2 .clear shan{
 	text-align: center;
 }
+.shangou-bottom{
+	margin: 30px auto 0 auto;
+	width: 1226px;
+	height: 170px;
+}
+.shangou-bottom>img{
+	width: 1226px;
+	height: 170px;
+}
+/* 手机开始 */
+.iPhone-top{
+	width: 1226px;
+	height: 21px;
+	margin: 40px auto 20px auto;
+}
+.iPhone-top1{
+	font-size: 21px;
+	color: #3a3a3a;
+	text-align:left;
+	line-height: 21px;
+	float: left;
+}
+.iPhone-top2{
+	width: 92px;
+	height: 100%;
+	float: right;
+}
+.iPhone-top2>span{
+	font-size: 15px;
+	line-height: 21px;
+	text-align:left;
+	color: #4a4a4a;
+}
+.iPhone-top2>i{
+	font-size: 21px;
+	line-height: 21px;
+    text-align: right;
+	color: #b0b0b0;
+}
+.iPhone-bottom{
+	width: 1226px;
+	height: 614px;
+	margin: 0 auto;
+}
+.iPhone-bottom1{
+	width: 234px;
+	height: 100%;
+	background: #000080;
+	float: left;
+}
+.iPhone-bottom1 img{
+	width: 100%;
+	height: 100%;
+}
+.iPhone-bottom2{
+	width: calc(1226px - 234px);
+	height: 100%;
+	float: left;
+}
+.iPhone-bottom2s{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left:14px;
+	background: #ffffff;
+	border-bottom:14px solid #f5f5f5 ;
+	text-align: center;
+}
+.iPhone-bottom2s div:nth-child(1){
+	width: 63px;
+	height: 20px;
+	background: #83c44e;
+	margin: 0 auto;
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+}
+.iPhone-bottom2s>img{
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.iPhone-bottom2s p:nth-child(3){
+	font-size: 15px;
+}
+.iPhone-bottom2s div:nth-child(4){
+	font-size: 12px;
+	color: #b7b7b7;
+	margin-top: 13px;
+}
+.iPhone-bottom2s div:nth-child(5){
+	color: #ff7222;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
+/* 手机结束 */
+.householdtop{
+	margin: 30px auto;
+	width: 1226px;
+	height: 170px;
+}
+.householdtop>img{
+	width: 1226px;
+	height: 170px;
+}
+/* 家电开始 */
+.household-top{
+	width: 1226px;
+	height: 25px;
+	margin: 40px auto 20px auto;
+}
+.household-top1{
+	font-size: 21px;
+	color: #3a3a3a;
+	text-align:left;
+	line-height: 21px;
+	float: left;
+}
+.household-top2{
+	width:250px ;
+	height: 100%;
+	float: right;
+}
+.household-top2>span{
+	font-size: 15px;
+	margin-left: 28.5px;
+	color: #585858;
+}
+.household-top2 span:nth-child(1){
+	color: #fb863f;
+	margin-left: 0;
+	text-decoration:underline;
+}
+.household-bottom{
+	width: 1226px;
+	height: 614px;
+	margin: 0 auto;
+}
+.household-bottom1{
+	width: 234px;
+	height: 100%;
+	float: left;
+}
+.household-bottom1s{
+	width: 100%;
+	height: 300px;
+	float: left;
+	border-bottom:14px solid #f5f5f5 ;
+}
+.household-bottom1s>img{
+	width: 234px;
+	height: 300px;
+}
+.household-bottom2{
+	width: calc(1226px - 234px);
+	height: 100%;
+	float: left;
+}
+.household-bottom2s{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left:14px;
+	background: #ffffff;
+	border-bottom:14px solid #f5f5f5 ;
+	text-align: center;
+}
+.household-bottom2s div:nth-child(1){
+	width: 63px;
+	height: 20px;
+	background: #83c44e;
+	margin: 0 auto;
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+}
+.household-bottom2s>img{
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.household-bottom2s p:nth-child(3){
+	font-size: 15px;
+}
+.household-bottom2s div:nth-child(4){
+	font-size: 12px;
+	color: #b7b7b7;
+	margin-top: 13px;
+}
+.household-bottom2s div:nth-child(5){
+	color: #ff7222;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.household-bottom2>div:nth-child(8)>header{
+	width: 234px;
+	height: 143px;
+	float: left;
+	border-bottom:14px solid #f5f5f5 ;
+	position: relative;
 
+}
+.household-bottom2>div:nth-child(8)>header>img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 31.5px;
+	right: 20px;
+}
+.household-bottom2>div:nth-child(8)>header>div{
+	font-size: 15px;
+	color: #232323;
+	float: left;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.household-bottom2>div:nth-child(8)>header>span{
+	font-size: 13px;
+	color: #ffae76;
+	position: absolute;
+	top: 70px;
+	left: 30px;
+}
+/* 家电结束 */
+.householdbottom{
+	margin: 30px auto;
+	width: 1226px;
+	height: 170px;
+}
+.householdbottom>img{
+	width: 1226px;
+	height: 170px;
+}
+.intelligencebottom{
+	margin: 30px auto;
+	width: 1226px;
+	height: 170px;
+}
+.intelligencebottom>img{
+	width: 1226px;
+	height: 170px;
+}
+.collocationbottom{
+	margin: 30px auto;
+	width: 1226px;
+	height: 170px;
+}
+.collocationbottom>img{
+	width: 1226px;
+	height: 170px;
+}
+.partsbottom{
+	margin: 30px auto;
+	width: 1226px;
+	height: 170px;
+}
+.partsbottom>img{
+	width: 1226px;
+	height: 170px;
+}
+.peripherybottom{
+	margin: 30px auto;
+	width: 1226px;
+	height: 170px;
+}
+.peripherybottom>img{
+	width: 1226px;
+	height: 170px;
+}
 /* 为你推荐 */
 .topx3{
 	width: 1226px;
 	height: 22px;
-	margin: 50px auto;
+	margin: 30px auto;
 }
 .topx3 span{
 	width: 90px;
+	font-size: 21px;
+
 	height: 100%;
 	text-align: left;
 	color: #303030;
@@ -490,9 +818,10 @@
 	width: 1226px;
 	height: 460px;
 	margin: 0px auto 0px auto;
+	cursor: pointer
 }
-.hotshop>name{
-	font-size: 22px;
+.hotshop .name{
+	font-size: 21px;
 	color: #373737;
 }
 .hotshops{
