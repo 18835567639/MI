@@ -559,7 +559,7 @@
 	height: 100%;
 	float: left;
 	cursor: pointer;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .iPhone-bottom2>div:nth-child(5){
 	margin-top: 14px;
