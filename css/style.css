@@ -714,6 +714,17 @@
 	position: relative;
 	overflow: hidden;
 }
+.household-bottom2ss{
+	width: 234px;
+	height: 300px;
+	float: left;
+	margin-left:14px;
+	background: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	/* overflow: hidden; */
+}
 .household-bottom2s>main{
 	width: 100%;
 	height: 75px;
@@ -780,21 +791,27 @@
 	font-size: 14px;
 	font-weight: 600;
 }
-.household-bottom2>div:nth-child(8)>header{
+.household-bottom2ss>header{
 	width: 234px;
 	height: 143px;
 	float: left;
+	background: #fff;
 	position: relative;
 }
-.household-bottom2>div:nth-child(8)>header:nth-child(2){
+.household-bottom2ss>header:hover{
+	box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.1);
+	transform: translateY(-5px);
+	transition: all 0.3s;
+}
+.household-bottom2ss>header:nth-child(2){
 	margin-top: 14px;
 }
-.household-bottom2>div:nth-child(8)>header>img{
+.household-bottom2ss>header>img{
 	width: 80px;
 	height: 80px;
 	position: absolute;
 	top: 31.5px;
-	right: 20px;
+	right: 20px; 
 }
 .household-bottom2>div:nth-child(8)>header>div{
 	font-size: 15px;
