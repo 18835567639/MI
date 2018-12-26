@@ -285,7 +285,7 @@
 /* 	margin-bottom: 10px;
 	list-style: none; */
 }
-.bannerxia1>div:hover{
+.bannerxia1>div:hover .bannerxia1>div>i{
 	color: red;
 }
 .bannerxia1>div>i{
