@@ -1,3 +1,11 @@
+.beijingse{
+	width: 100%;
+	height: 100%;
+	background: #F5F5F5;
+}
+.topx{
+	height: 80px;
+}
 .fenlei1{
 	width: 100%;
 	height: 41px;
@@ -51,13 +59,13 @@
 }
 .fenlei3{
 	width: 100%;
-	height: 1068px;
+	height: 500px;
 	background: #f5f5f5;
 
 }
 .fenlei3s{
 	width: 1226px;
-	height: 1068px;
+	/* height: 50px; */
 	background: #f5f5f5;
 	margin: 0 auto;
 }
@@ -196,4 +204,86 @@
 	right: 25px;
 	top: 25px;
 	font-size: 28px;
+}
+.fenlei4{
+	width: 100%;
+	height: 40px;
+
+}
+.fenlei4s{
+	width: 1226px;
+	height: 100%;
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.fenlei4s-1{
+	width: 372px;
+	height: 2px;
+	background: #778695;
+}
+.fenlei4s-3{
+	width: 372px;
+	height: 2px;
+	background: #778695;
+
+}
+.fenlei4s-2{
+	width: 482px;
+	height: 100%;
+	line-height: 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #b0b0b0;
+}
+.tui{
+	width: 1226px;
+	height: 310px;
+	margin: 100px auto;
+	overflow: hidden;
+
+}
+.tui ul{
+	width: calc(1226px * 3);
+	height: 300px;
+	float: left;
+	text-align: center;
+	margin-bottom: 0;
+}
+.tui>ul>li{
+	width:234px;
+	height: 100%;
+	margin-left: 14px;
+	background: #fff;
+	float: left;
+	cursor: pointer;
+}
+.tui>ul>li:hover{
+	box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.1);
+	transform: translateY(-5px);
+	transition: all 0.3s;
+}
+.tui .tui-forst{
+	margin-left:0px;
+}
+.tui>ul>li img{
+	width: 140px;
+	height: 140px;
+}
+.tui1-1{
+	font-size: 15px;
+	color: #3f3f3f;
+	margin-top: 22px;
+}
+.tui1-2{
+	font-size: 12px;
+	color: #ffaf78;
+	margin: 15px;
+}
+.tui1-3{
+	font-size: 15px;
+	color: #bcbcbc;
+	margin-top: 20px;
 }
