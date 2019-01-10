@@ -6,34 +6,40 @@
 }
 .head-1{
 	width:1226px;
-	height:74px;
+	height:100%;
 	margin: 0 auto;
-	overflow: hidden;
 }
-.head-1>div{
+.head-1>div:nth-child(2){
+	margin-left: 40px;
+}
+.head-1>div:nth-child(3){
 	margin-top: 40px;
 }
 .head-logo{
-	width:93px;
+	width:48px;
 	height:48px;	
 	float: left;
+	margin: 26.5px 0;
 }
 .head-logo img{
-	width: auto;
-	height:80%;
+	width: 48px;
+	height:48px;
 	}
 .head-title{
 	width:140px;
-	height:48px;
+	height: 48px;
 	float: left;
-	font-size: 20px;
+	font-size: 28px;
+	line-height: 101px;
+	color: #424242;
 }
 .head-info{
-	width:84px;
+	width:150px;
 	height:40px;
 	float: right;
 	font-size:14px ;
 	color:#333;
+	text-align: right;
 }
 /* head off */
 /* main on */
