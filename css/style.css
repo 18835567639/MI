@@ -532,7 +532,6 @@
 }
 .household-top2>span:hover{
 	color: #ff6700;
-	text-decoration:underline;
 }
 .household-top2 span:nth-child(1){
 	/* color: #fb863f; */
@@ -542,6 +541,17 @@
 	width: 1226px;
 	height: 614px;
 	margin: 0 auto;
+	position: relative;
+}
+.household-bottoms{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.household-bottoms-1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 .household-bottom1{
 	width: 234px;
