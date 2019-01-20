@@ -66,57 +66,201 @@
 	color: #FF6700;
 	transition: all 0.3s;
 }
-.topx{
-	width: 100%;
-    height: 800px;
-    /* background: red; */
+.first{
+	width:1226px;
+	height:100px;
+	margin:0 auto;
 }
-.topx1{
-	width: 1226px;
-	height: 55px;
-	background: #fff;
-	margin: 22px auto;
-	
+.first .one{
+	float:left;
+	width:49px;
+	height:49px;
+	background:#ff6700;
+	margin-top:22.5px;
 }
-.topx1 img{
-	width: 55px;
-	height: 55px;
-	float: left;
+.first .one img{
+	width:49px;
+	height:49px;
 }
-.topxz{
-	width: 600px;
-	height: 100%;
-	float: left;
-	text-align: center;
-	line-height: 55px;
-	margin-left: 190px;
-}
-.topxz span{
-	color:#333333;
-	margin-left: 14.1px;
-	font-size: 16px;
-}
-.topxz span:hover{
-	color: #ff6700;
-	transition: all 0.3s;
-}
-.topxr{
-	width: 295px;
-	height: 51px;
-	background: #fff;
-	border:2px solid #e0e0e0 ;
+.first .two{
+	width:981px;
+	height:100%;
 	float:right;
 }
-.topxr1{
-	width: 242px;
-	height: 51px;
-	float: left;
+.first .two .left{
+	margin-top:35px;
+	width:560px;
+	height:30px;
+	display: flex;
+	float:left;
 }
-.topxr2{
-	width: 51px;
-	height: 51px;
+.first .two .left .text{
+	float:left;
+	margin-right:14px;
+	color:#333333;
+	font-size:14px;
+	cursor: pointer;
+}
+.first .two .left .text:hover{
+	color: #ff6700;
+}
+.first .two .right{
+	float:right;
+	width:296px;
+	height:50px;
+	border:1px solid #e0e0e0;
+	position: relative;
+	margin-top:25px;
+	box-sizing:border-box;
+}
+.first .two .right .a{
+	padding: 1px;
+	height:48px;
+	width:244px;
+	float:left;
+	border-right:1px solid #e0e0e0;
+	box-sizing:border-box;
+	position:relative;
+}
+.first .two .right .act{
+	border-right:1px solid #ff6700;
+	box-sizing: border-box;
+
+}
+.first .two .right .xianshi{
+	width:245px;
+	position:absolute;
+	box-sizing:border-box;
+	left:-1px;
+	z-index: 999999999999999;
+	top:49px;
+	border-left:1px solid #ff6700 ;
+	border-right:1px solid #ff6700 ;
+	border-bottom:1px solid #ff6700 ;
+	display: none;
+}
+.first .two .right .xianshi li{
+	width:100%;
+	height:30px;
+	font-size:14px;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding: 0 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	background: #fff;
+}
+.first .two .right .xianshi li:hover{
+	background: #f5f5f5;
+}
+.first .two .right .xianshi li span:nth-child(1){
+	color:#333;
+}
+.first .two .right .xianshi li span:nth-child(2){
+	color:#b0b0b0;
+}
+.first .two .right .a input{
+	width:243;
+	height:100%;
+	border:none;
+	outline:none;
+	padding-left:5px;
+	box-sizing:border-box;
+	
+}
+.first .two .right .a .tishi{
+	height:25px;
+	position:absolute;
+	right:20px;
+	top:0;
+	bottom:0;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.first .two .right .a .tishi div{
+	background: #eee;
+	color:#757575;
+	font-size:12px;
+	margin-right:5px;
 	float: left;
-	border-left: 2px solid #e0e0e0;
+	padding: 5px;
+}
+.first .two .right .a .tishi div:hover{
+	background: #ff6700;
+}
+.first .two .right .b{
+	height:48px;
+	width:50px;
+	float:right;
+}
+.first .two .right .b img{
+	width:30px;
+	height:30px;
+	margin:11px 11px;
+}
+.second{
+	width:100%;
+	height:300px;
+	border-top: 2px solid #e0e0e0;
+	box-sizing: border-box;
+	position: absolute;
+	left:0px;
+	z-index:10000000;
+	background:#fff;
+	display: none;
+}
+.second .second-con{
+	width:1260px;
+	height:300px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.second .second-con ul{
+	width:8582px;
+	height:300px;
+	display: flex;
+	position: relative;
+	left:0;
+	top:0;
+}
+.second .second-con ul li{
+	width:180px;
+	height:290px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.second .second-con ul li .new{
+	width:68px;
+	height:25px;
+	color:#ff6700;
+	border:1px solid #ff6700;
 	text-align: center;
-	line-height: 51px;
+	line-height: 25px;
+}
+.second .second-con ul li .img-box{
+	width:180px;
+	height:113px;
+	box-sizing: border-box;
+	border-right: 1px solid #e0e0e0;
+	text-align: center;
+	margin:15px 0;
+}
+.second .second-con ul li .last{
+	border-right: none;
+
+}
+.second .second-con ul li .img-box img{
+	width:107px;
+	height:113px;
+}
+.second .second-con ul li .text1{
+	color:#757575;
+	font-size:12px;
+	margin:5px 0;
+}
+.second .second-con ul li .text2{
+	color:#ff6700;
+	font-size:12px;
 }

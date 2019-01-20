@@ -49,7 +49,23 @@
 	height: 100%;
 	position: relative;
 }
-.xiangqing1>img{
+.xiangqing1>div:first-child{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.xiangqing1>div:first-child .active{
+	opacity:1;
+	z-index:10px;
+}
+.xiangqing1>div:first-child>div{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity:0;
+	transition: all 1s;
+}
+.xiangqing1>div:first-child img{
 	width: 100%;
 	height: 100%;
 }
@@ -62,15 +78,15 @@
 	justify-content: center;
 	align-items: center;
 }
+.changtiao .active{
+	background: #111111;
+}
 .changtiao>div{
 	width: 50px;
 	height: 2px;
 	background: #d3d3d3;
 	margin: 0 10px;
 	cursor: pointer;
-}
-.changtiao>div:first-child{
-	background: #111111;
 }
 .banner-jiantouleft{
 	cursor: pointer;
