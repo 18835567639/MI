@@ -1,7 +1,8 @@
 .head{
-	width: 100%vw;
+	width: 1226px;
 	height:101px;
 	background: #fff;
+	margin: 0 auto;
 }
 .head-1{
 	width:1226px;
@@ -42,9 +43,10 @@
 }
 /* head off */
 .pic{
-	width: 100vw;
+	width: 1226px;
 	height: 588px;
 	position: relative;
+	margin: 0 auto;
 }
 .pic>img{
 	width: 100%;
@@ -72,7 +74,6 @@
 	font-size: 24px;
 	text-align: center;
 	line-height: 31px;
-	color: #ff6700;
 	cursor: pointer;
 }
 .denglu1-2{
@@ -227,4 +228,46 @@
 	text-align: center;
 	color: #757575;
 	padding-top: 10px;
+}
+.main-floor2{
+	cursor: pointer;
+	position: absolute;
+	left: 10px;
+	top:80px;
+	display: none;
+	overflow: hidden;
+}
+.kz1{
+	display: none;
+}
+.mainfloor2-2{
+	width:410px;
+	height:441px;
+	margin-top: 10px;
+}
+.main2-2-1{
+	width: 302px;
+	height: 206px;
+	margin:0 auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.main-img{
+	width:auto;
+	height:100%;
+	margin-left: 60px;
+}
+.main-text1{
+	text-align: center;
+	font-size: 18px;
+}
+.main-text2{
+	text-align: center;
+	font-size: 18px;
+}
+.active{
+	color:#ff6700;
+}
+.zzz{
+	display: block;
 }

@@ -1,8 +1,9 @@
 /* 底部开始 */
 .bottom{
-	width: 100vw;
+	width: 1226px;
 	height: 278px;
 	background: white;
+	margin: 0 auto;
 }
 .bottom1{
 	width: 100%;
@@ -48,6 +49,7 @@
 	height: 115px;
 	border-right: 2px solid #e7e7e7;
 	display: flex;
+	padding-left: 20px;
 }
 .bottom2a1{
 	width: 16.667%;

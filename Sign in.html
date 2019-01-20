@@ -10,7 +10,9 @@
 		<!-- 头部开始 -->
 		<div class="head">
 			<div class="head-1">
-				<a href="index.html"><div class="head-logo"><img src="img/小米logo.png" alt=""></div></a>
+				<a href="index.html">
+					<div class="head-logo"><img src="img/小米logo.png" alt=""></div>
+				</a>
 				<div class="head-title">小米商城</div>
 			</div>
 		</div>
@@ -18,27 +20,43 @@
 		<div class="pic">
 			<img src="//i1.mifile.cn/a4/xmad_15472198894648_JRZLz.jpg" alt="">
 			<div class="denglu">
-				<div class="denglu1"><div class="denglu1-1">账号登录</div><div class="denglu1-2">扫码登录</div></div>
-				<div class="kuang">
-					<input class="zhanghao" type="text" name="" id="" value="" />
-					<input class="mima" type="password" name="" id="" value="" />
+				<div class="denglu1">
+					<div class="denglu1-1 active">账号登录</div>
+					<div class="denglu1-2">扫码登录</div>
 				</div>
-				<a href="Personal Center.html"><div class="denglus">登录</div></a>
-				<div class="wjmm">
-					<div class="wjmm1">手机短信登录/注册</div>
-					<div class="wjmm2"><span>立即注册</span> | <span>忘记密码?</span></div>
-				</div>
-				<div class="qtfs">
-					<div class="qtfs1">
-						<div></div>
-						<div>其他方式登录</div>
-						<div></div>
+				<div class="kz1 zzz">
+					<div class="kuang">
+						<input class="zhanghao" type="text" name="" id="" value="" />
+						<input class="mima" type="password" name="" id="" value="" />
 					</div>
-					<div class="qtfs2">
-						<div><i class="iconfont">&#xe65c;</i></div>
-						<div><i class="iconfont">&#xe66b;</i></div>
-						<div><i class="iconfont">&#xe65f;</i></div>
-						<div><i class="iconfont">&#xe65b;</i></div>
+					<a href="Personal Center.html">
+						<div class="denglus">登录</div>
+					</a>
+					<div class="wjmm">
+						<div class="wjmm1">手机短信登录/注册</div>
+						<div class="wjmm2"><span>立即注册</span> | <span>忘记密码?</span></div>
+					</div>
+					<div class="qtfs">
+						<div class="qtfs1">
+							<div></div>
+							<div>其他方式登录</div>
+							<div></div>
+						</div>
+						<div class="qtfs2">
+							<div><i class="iconfont">&#xe65c;</i></div>
+							<div><i class="iconfont">&#xe66b;</i></div>
+							<div><i class="iconfont">&#xe65f;</i></div>
+							<div><i class="iconfont">&#xe65b;</i></div>
+						</div>
+					</div>
+				</div>
+				<div class="main-floor2">
+					<div class="main-floor2-2">
+						<div class="main2-2-1">
+							<div class="main-img"><img src="img/下载.png" alt=""></div>
+						</div>
+						<div class="main-text1">使用 <span style="color: #ff6700;">小米商城APP</span> 扫一下</div>
+						<div class="main-text2">小米手机可打开「设置」>「小米帐号」扫码登录</div>
 					</div>
 				</div>
 			</div>
@@ -55,7 +73,29 @@
 				<span>|</span>
 				<span>隐私政策</span>
 			</div>
-			<div class="btms-2"><span>小米公司版权所有-京ICP备10046444-</span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png" alt=""><span>京公网安备11010802020134号-京ICP证110507号</span></div>
+			<div class="btms-2"><span>小米公司版权所有-京ICP备10046444-</span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"
+				 alt=""><span>京公网安备11010802020134号-京ICP证110507号</span></div>
 		</div>
+		<script>
+			let leftBtn = document.querySelector(".denglu1-1");
+			console.log(leftBtn);
+			let rightBtn = document.querySelector(".denglu1-2");
+			let floor1 = document.querySelector(".kz1");
+			let floor2 = document.querySelector(".main-floor2");
+			console.log(floor2);
+
+			leftBtn.onclick = function() {
+				rightBtn.classList.remove("active")
+				leftBtn.classList.add("active");
+				floor2.classList.remove("zzz");
+				floor1.classList.add("zzz");
+			}
+			rightBtn.onclick = function() {
+				leftBtn.classList.remove("active");
+				rightBtn.classList.add("active");
+				floor2.classList.add("zzz");
+				floor1.classList.remove("zzz");
+			}
+		</script>
 	</body>
 </html>
