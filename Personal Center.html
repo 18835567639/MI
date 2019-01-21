@@ -524,25 +524,36 @@
 				xqInB.style.border="1px solid #e0e0e0";
 			}
 			//下拉菜单轮播
-			let xqXiaLis=document.querySelectorAll(".first .two .left div");
-			let xqYiLis=document.querySelectorAll(".second .second-con ul li");
-			let xqYiDong=document.querySelector(".second .second-con ul") ;
-			let xqian=document.querySelector(".first .two .left");
-			let xqNone=document.querySelector(".second");
-			xqian.onmouseover=function(){
-				xqNone.style.display="block";
+			let xqXiaLis = document.querySelectorAll(".first .two .left div");
+			let xqYiLis = document.querySelectorAll(".second .second-con ul li");
+			let xqYiDong = document.querySelector(".second .second-con ul");
+			let xqian = document.querySelector(".first .two .left");
+			let xqNone = document.querySelector(".second");
+			let xqNone1 = document.querySelector(".second .second-con");
+			xqian.onmouseover = function() {
+				xqNone.style.height = "300px";
+				xqNone1.style.height = "300px";
 			}
-			xqian.onmouseout=function(){
-				xqNone.style.display="none";
+			xqian.onmouseout = function() {
+				xqNone.style.height = "0px";
+				xqNone1.style.height = "0px";
 			}
-			xqXiaLis.forEach((val,index)=>{
-				val.onmouseover=function(){
-					if(index>=4){
-						xqNone.style.display="none";
-					}
-						xqNone.style.display="block";
-						let xqSize2=7*xqYiLis[0].offsetWidth;
-						xqYiDong.style.left=-xqSize2*index+"px";
+			xqYiDong.onmouseover = function() {
+				xqNone.style.height = "300px";
+				xqNone1.style.height = "300px";
+			}
+			xqYiDong.onmouseout = function() {
+				xqNone.style.height = "0px";
+				xqNone1.style.height = "0px";
+			}
+			xqXiaLis.forEach((val, index) => {
+				val.onmouseover = function() {
+					// 				    if(index>=5){
+					// 						 xqNone.style.height="0px";
+					// 						 xqNone1.style.height="0px";
+					// 					}
+					let xqSize2 = 7 * xqYiLis[0].offsetWidth;
+					xqYiDong.style.left = -xqSize2 * index + "px";
 				}
 			})
 		</script>
